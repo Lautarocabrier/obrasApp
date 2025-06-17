@@ -1,0 +1,40 @@
+.descripcion-general {
+background-color: #121212;
+color: #e0e0e0;
+padding: 2rem;
+
+h2 {
+    color: #ffcc00;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.registro-lista {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    .registro-item {
+    background-color: #1e1e1e;
+    border-left: 4px solid #ffcc00;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+
+    .empleado {
+        font-size: 1.1rem;
+        color: #ffffff;
+        margin-bottom: 0.4rem;
+    }
+
+    .horario {
+        color: #cccccc;
+        margin-bottom: 0.3rem;
+    }
+
+    .herramientas {
+        color: #bbbbbb;
+    }
+    }
+}
+}

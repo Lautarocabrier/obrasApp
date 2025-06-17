@@ -1,19 +1,13 @@
 .descripcion-general {
-background-color: #121212;
+background-color: #00000000;
 color: #e0e0e0;
-padding: 2rem;
+padding: 10%;
 
 h2 {
-    color: #ffcc00;
+    color: #e2ba08;
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
-
-.registro-lista {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
     .registro-item {
     background-color: #1e1e1e;
     border-left: 4px solid #ffcc00;
@@ -37,4 +31,4 @@ h2 {
     }
     }
 }
-}
+

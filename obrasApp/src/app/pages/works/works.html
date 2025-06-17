@@ -1,19 +1,16 @@
-<div class="p-5 flex flex-column gap-3">
-  <h2>Obras</h2>
-  <div>
-    <p-card header="Simple Card" subheader="Fecha de inicio: ">
-      <p class="m-0">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed
-        consequuntur error repudiandae numquam deserunt quisquam repellat libero
-        asperiores earum nam nobis, culpa ratione quam perferendis esse,
-        cupiditate neque quas!
-      </p>
-      <ng-template #footer>
-        <div class="flex gap-4 mt-1 justify-content-end">
-          <p-button label="Faltantes" />
-        </div>
-      </ng-template>
-    </p-card>
-  </div>
+<div class="card-container">
+  <p-card>
+    <ng-template pTemplate="header">
+      <h2>Nombre de la obra</h2>
+    </ng-template>
+
+    <p><strong>Fecha de inicio:</strong> 15/06/2025</p>
+
+    <ng-template pTemplate="footer">
+      <button pButton type="button" label="Ver detalles" icon="pi pi-arrow-right"
+              class="p-button-sm p-button-outlined p-button-success"
+              (click)="goToWork('1')">
+      </button>
+    </ng-template>
+  </p-card>
 </div>
-<!-- s -->
